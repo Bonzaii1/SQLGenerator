@@ -19,8 +19,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Bonzaii1/SQLGenerator">
+    <img src="client\src\assets\sql-logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">SQL Query Generator!</h3>
@@ -29,7 +29,7 @@
     Request for a Sql query in Natural Language and it'll generate one for you!
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Bonzaii1/SQLGenerator">View Demo</a>
     ·
     <a href="https://github.com/Bonzaii1/SQLGenerator/issues">Report Bug</a>
   </p>
@@ -68,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -147,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@__bonzaii__](https://twitter.com/__bonzaii__) - mattherr23@gmail.com
+Matthew Herrera - [@__bonzaii__](https://twitter.com/__bonzaii__) - mattherr23@gmail.com
 
 Project Link: [https://github.com/Bonzaii1/SQLGenerator](https://github.com/Bonzaii1/SQLGenerator)
 
@@ -171,7 +171,7 @@ Project Link: [https://github.com/Bonzaii1/SQLGenerator](https://github.com/Bonz
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: www.linkedin.com/in/matthew-herrera-417b07272
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: client\src\assets\example.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [JS]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
