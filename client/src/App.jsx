@@ -6,10 +6,26 @@ import { useState } from 'react'
 function App() {
 
   const [queryDesc, setQueryDesc] = useState("")
+  const [SqlQuery, setSqlQuery] = useState("")
 
-  const onSubmit = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    console.log("form submitted: ", queryDesc)
+
+    const generatedQuery = await generateQuery()
+    setSqlQuery(generatedQuery)
+  }
+
+  const generateQuery = async () => {
+    const response = await fetch("http://localhost:3005/generate", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ queryDesc: queryDesc })
+    });
+
+    const data = await response.json()
+    return data.response.trim();
   }
 
   return (
@@ -20,6 +36,8 @@ function App() {
       <form onSubmit={onSubmit}>
         <input type="text" name='query-desc' placeholder='Describe your query' onChange={(e) => setQueryDesc(e.target.value)} />
         <input type="submit" value='Generate query' />
+
+        <pre>{SqlQuery}</pre>
       </form>
 
 
