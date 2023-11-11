@@ -171,7 +171,7 @@ Project Link: [https://github.com/Bonzaii1/SQLGenerator](https://github.com/Bonz
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: www.linkedin.com/in/matthew-herrera-417b07272
-[product-screenshot]: client\src\assets\example.png
+[product-screenshot]: client/src/assets/example.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [JS]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
